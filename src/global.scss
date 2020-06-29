@@ -1,0 +1,49 @@
+@import "./variables.scss";
+@import "./components/Modal/Modal.scss";
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    outline: unset;
+    color: $text;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg-primary;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+        sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+a {
+    color: $text-link;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+input {
+    background-color: $bg-secondary;
+    border: none;
+    border-radius: 0.25em;
+    padding: 0.75em;
+
+    &::placeholder {
+        color: $text-saturated;
+    }
+}
