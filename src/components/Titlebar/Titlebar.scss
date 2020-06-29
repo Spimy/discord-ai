@@ -1,0 +1,43 @@
+#Titlebar {
+
+    -webkit-app-region: drag;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .5);
+
+    .app-name-container {
+        width: 3.25rem;
+        height: auto;
+        margin: .25em;
+        opacity: .5;
+    }
+
+    .window-controls-container {
+        -webkit-app-region: no-drag;
+
+        button {
+            cursor: pointer;
+            background-color: transparent;
+            height: 100%;
+            width: 2em;
+            margin: 0;
+            color: $text-saturated;
+
+            &:hover {
+                background-color: $bg-primary;
+                color: $text;
+            }
+        }
+
+        .close-button {
+
+            &:hover {
+                background-color: #f04747;
+            }
+
+        }
+
+    }
+
+}
