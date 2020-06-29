@@ -1,5 +1,6 @@
 @import "./variables.scss";
 @import "./components/Modal/Modal.scss";
+@import "./components/Titlebar/Titlebar.scss";
 
 *,
 *::before,
@@ -35,6 +36,11 @@ a {
     &:hover {
         text-decoration: none;
     }
+}
+
+button {
+    background-color: $bg-secondary;
+    border: none;
 }
 
 input {
