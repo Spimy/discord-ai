@@ -24,18 +24,18 @@
             margin: 0;
             color: $text-saturated;
 
+            &.close-button {
+
+                &:hover {
+                    background-color: #f04747;
+                }
+
+            }
+
             &:hover {
                 background-color: $bg-primary;
                 color: $text;
             }
-        }
-
-        .close-button {
-
-            &:hover {
-                background-color: #f04747;
-            }
-
         }
 
     }
