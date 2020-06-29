@@ -1,14 +1,10 @@
 <script>
 	import Modal from './components/Modal/Modal.svelte';
-	export let api;
+
 	let showModal = false;
 
 	const toggleModal = () => {
 		showModal = !showModal;
-	}
-
-	const logOut = () => {
-		fetch(`${api}/logout`);
 	}
 
 </script>
