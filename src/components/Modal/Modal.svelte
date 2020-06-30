@@ -5,8 +5,8 @@
 
 {#if showModal}
     <div id="Modal" class="backdrop" on:click|self>
-        <div class="modal" on:submit|preventDefault>
+        <form class="modal" on:submit|preventDefault>
             <slot></slot>
-        </div>
+        </form>
     </div>
 {/if}
