@@ -20,7 +20,8 @@
     "config": {
         "forge": {
             "packagerConfig": {},
-            "makers": [{
+            "makers": [
+                {
                     "name": "@electron-forge/maker-squirrel",
                     "config": {
                         "name": "crawler"
@@ -44,6 +45,7 @@
         }
     },
     "dependencies": {
+        "discord.js": "^12.2.0",
         "electron-reload": "^1.5.0",
         "electron-squirrel-startup": "^1.0.0",
         "sirv-cli": "^0.4.4"
