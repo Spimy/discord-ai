@@ -3,4 +3,5 @@ A Electron-based application used to connect to your discord bot account using t
 
 ## Technologies
 - Svelte
+- SCSS
 - Electron
