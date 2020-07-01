@@ -1,0 +1,13 @@
+.page.home {
+    .field {
+        p {
+            margin-bottom: 10px;
+        }
+    }
+
+    button {
+        margin-top: 20px;
+        padding: $padding;
+        border-radius: $border-radius;
+    }
+}
