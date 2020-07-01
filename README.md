@@ -1,5 +1,5 @@
 # Discord AI
-A Electron-based application used to connect to your discord bot account using tokens as authentication method.
+An electron-based app which connects to your discord bot account and allows you to chat on the server with it.
 
 ## Technologies
 - Svelte
