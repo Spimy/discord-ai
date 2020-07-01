@@ -1,21 +1,24 @@
 #Modal.backdrop {
-
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-
-    background-color: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .8);
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: appear 300ms ease-in-out;
 
     .modal {
-        border-radius: .25em;
-        background-color: $bg-primary;
-        padding: 2em;
-        margin: .75em;
-    }
+        border-radius: $border-radius;
+        background: $bg-primary;
+        padding: $padding;
+        display: flex;
+        flex-direction: column;
 
+        label {
+            margin-bottom: $padding;
+        }
+    }
 }
